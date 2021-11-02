@@ -1,0 +1,114 @@
+<!--script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></-script>-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <title>Technical documentation page</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header>HTML documentation</header>
+    <a class="nav-link" href="#html">HTML</a>
+    <a class="nav-link" href="#headings">Headings</a>
+    <a class="nav-link" href="#paragraphs">Paragraphs</a>
+    <a class="nav-link" href="#links">Links</a>
+    <a class="nav-link" href="#meta_viewport">Meta viewport</a>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="html">
+      <header>HTML</header>
+      <article>
+        <p>What is HTML?</p>
+        <ul>
+          <li>HTML stands for Hyper Text Markup Language</li>
+          <li>HTML is the standard markup language for creating Web pages</li>
+          <li>HTML describes the structure of a Web page</li>
+          <li>HTML consists of a series of elements</li>
+          <li>HTML elements tell the browser how to display the content</li>
+          <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+        </ul>
+        <code>
+          < ! DOCTYPE html ><br>
+          < html ><br>
+          < head ><br>
+          < title > Page Title < / title ><br>
+          < / head ><br>
+          < body ><br>
+
+          < h1 > My First Heading < / h1 ><br>
+          < p > My first paragraph. < / p ><br>
+
+          < / body ><br>
+          < / html ><br>
+        </code>
+        <p>What is an HTML element?</p>
+        <p>An HTML element is defined by a start tag, some content, and an end tag:</p>    
+        <code>
+          < tagname > Content goes here... < / tagname >
+        </code>  
+        <p>The HTML element is everything from the start tag to the end tag:</p>    
+        <code>
+          < h 1 > My First Heading < / h1 ><br>
+          < p > My first paragraph. < / p >
+        </code>    
+      </article>
+    </section>
+    <section class="main-section" id="headings">
+      <header>Headings</header>
+      <article>
+        <p>HTML headings are titles or subtitles that you want to display on a webpage.</p>
+        <p>
+          HTML headings are defined with the < h1 > to < h6 > tags. < h1 > defines the most important heading. < h6 > defines the least       important heading.
+        </p>
+        <code>
+          < h1 > Heading 1 < / h1 ><br>
+          < h2 > Heading 2 < / h2 ><br>
+          < h3 > Heading 3 < / h3 ><br>
+          < h4 > Heading 4 < / h4 ><br>
+          < h5 > Heading 5 < / h5 ><br>
+          < h6 > Heading 6 < / h6 ><br>
+        </code>  
+      </article>
+    </section>
+    <section class="main-section" id="paragraphs">
+      <header>Paragraphs</header>
+      <article>
+        <p>The HTML < p > element defines a paragraph.</p>
+        <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
+        <code>
+          < p > This is a paragraph. < / p ><br>
+          < p > This is another paragraph.< / p >
+        </code>
+      </article>
+    </section>
+    <section class="main-section" id="links">
+      <header>Links</header>
+      <article>
+        <p>Links are found in nearly all web pages. Links allow users to click their way from page to page.</p>
+        <ul>
+          <li>HTML links are hyperlinks.</li>
+          <li>You can click on a link and jump to another document.</li>
+          <li>When you move the mouse over a link, the mouse arrow will turn into a little hand.</li>
+        </ul>
+        <p>The HTML < a > tag defines a hyperlink. It has the following syntax:</p>
+          <code>
+            < a href="url" > link text < / a >
+          </code>
+      </article>
+    </section>
+    <section class="main-section" id="meta_viewport">
+      <header>Meta viewport</header>
+      <article>
+        <p>Responsive web design is about creating web pages that look good on all devices!</p>
+        <p>A responsive web design will automatically adjust for different screen sizes and viewports.</p>
+        <p>To create a responsive website, add the following < meta > tag to all your web pages:</p>
+        <code>
+          < meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        </code>
+        <p>
+          This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.           </p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
